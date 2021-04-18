@@ -17,6 +17,12 @@
             <a href="https://cryptomoney.enteri-o.com">ブログ</a>
           </li>
           <li class="list">
+            <a href="https://discord.gg/k6R9BdH9Ut">Discord</a>
+          </li>
+          <li class="list">
+            <a href="https://note.com/cryptomoney">Note</a>
+          </li>
+          <li class="list">
             <a href="https://enteri-o.com/contact">お問い合わせ</a>
           </li>
         </ul>
