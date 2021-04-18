@@ -121,28 +121,29 @@ export default {
   },
   proxy: ['http://localhost:9000/.netlify'],
   pwa: {
-    workbox: {
-      offlineAssets: [
-        '/images/banner_logo.svg',
-        '/images/icon_author.svg',
-        '/images/icon_clock.svg',
-        '/images/icon_facebook.svg',
-        '/images/icon_feed.svg',
-        '/images/icon_hatena.svg',
-        '/images/icon_menu.svg',
-        '/images/icon_quote.svg',
-        '/images/icon_search.svg',
-        '/images/icon_twitter.svg',
-        '/images/icon_link.svg',
-        '/images/logo.svg',
-      ],
-      // runtimeCaching: [
-      //   {
-      //     urlPattern: 'https://images.microcms-assets.io/.*',
-      //     handler: 'staleWhileRevalidate',
-      //   },
-      // ],
-    },
+    icon: false,
+    // workbox: {
+    //   offlineAssets: [
+    //     '/images/banner_logo.svg',
+    //     '/images/icon_author.svg',
+    //     '/images/icon_clock.svg',
+    //     '/images/icon_facebook.svg',
+    //     '/images/icon_feed.svg',
+    //     '/images/icon_hatena.svg',
+    //     '/images/icon_menu.svg',
+    //     '/images/icon_quote.svg',
+    //     '/images/icon_search.svg',
+    //     '/images/icon_twitter.svg',
+    //     '/images/icon_link.svg',
+    //     '/images/logo.svg',
+    //   ],
+    //   runtimeCaching: [
+    //     {
+    //       urlPattern: 'https://images.microcms-assets.io/.*',
+    //       handler: 'staleWhileRevalidate',
+    //     },
+    //   ],
+    // },
   },
   /*
    ** Build configuration
