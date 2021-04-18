@@ -111,7 +111,7 @@ export default {
     border: none;
     border-radius: 5px;
     background: linear-gradient(to right bottom, #5630af, #3067af);
-    color: #fff;
+    color: #faf9fb;
     text-align: center;
     font-size: 24px;
     font-weight: bold;
@@ -190,7 +190,7 @@ export default {
     border: none;
     border-radius: 5px;
     background: linear-gradient(to right bottom, #5630af, #3067af);
-    color: #fff;
+    color: #faf9fb;
     text-align: center;
     font-size: 20px;
     font-weight: bold;

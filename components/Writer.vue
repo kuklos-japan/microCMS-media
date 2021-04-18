@@ -81,7 +81,7 @@ export default {
     top: 0;
     right: 20px;
     background-color: #2b2c30;
-    color: #fff;
+    color: #faf9fb;
     font-size: 14px;
     padding: 2px 10px;
     border-radius: 0 0 5px 5px;
@@ -106,7 +106,7 @@ export default {
     top: 0;
     right: 0;
     background-color: #2b2c30;
-    color: #fff;
+    color: #faf9fb;
     font-size: 14px;
     padding: 2px 10px;
     border-radius: 0 0 5px 5px;

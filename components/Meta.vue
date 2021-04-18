@@ -1,6 +1,11 @@
 <template>
   <div>
     <span v-if="category" class="category">{{ category.name }}</span>
+    <div>
+      <li v-for="item in tag" :key="item" class="tagList">
+        <span v-if="tag" class="tag">{{ item }}</span>
+      </li>
+    </div>
     <div class="meta">
       <span class="timestamp">
         <img src="/images/icon_clock.svg" alt />
@@ -31,6 +36,11 @@ export default {
       required: false,
       default: undefined,
     },
+    tag: {
+      type: String,
+      required: false,
+      default: undefined,
+    },
   },
 };
 </script>
@@ -46,12 +56,30 @@ export default {
   .category {
     display: inline-block;
     padding: 2px 8px;
-    border: 1px solid #331cbf;
+    border: 1px solid #dae8ff;
     color: #331cbf;
+    background-color: #dae8ff;
     white-space: nowrap;
     border-radius: 3px;
     font-size: 14px;
     margin: 10px 0 2px;
+  }
+
+  .tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border: 1px solid #fee2e9;
+    color: #b34778;
+    background-color: #fee2e9;
+    white-space: nowrap;
+    border-radius: 3px;
+    font-size: 14px;
+    margin: 10px 0 2px;
+  }
+
+  .tagList {
+    display: inline-block;
+    margin-right: 10px;
   }
 
   .timestamp {

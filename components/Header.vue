@@ -62,7 +62,7 @@ export default {
     padding: 12px 40px;
     z-index: 10;
     border-bottom: 1px solid var(--color-border);
-    background-color: #fff;
+    background-color: #faf9fb;
   }
 
   .empty {
@@ -123,7 +123,7 @@ export default {
       &.signup {
         border-radius: 5px;
         background: linear-gradient(to right bottom, #5630af, #3067af);
-        color: #fff;
+        color: #faf9fb;
         text-align: center;
         padding: 8px 24px;
       }
@@ -147,7 +147,7 @@ export default {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #fff;
+    background-color: #faf9fb;
     padding: 16px;
     z-index: 10;
     border-bottom: 1px solid var(--color-border);
@@ -181,7 +181,7 @@ export default {
     display: none;
     flex-direction: column-reverse;
     width: 100%;
-    background-color: #fff;
+    background-color: #faf9fb;
     border-bottom: 1px solid var(--color-border);
     z-index: 2001;
     padding-top: 8px;
@@ -212,7 +212,7 @@ export default {
       &.signup {
         border-radius: 5px;
         background: linear-gradient(to right bottom, #5630af, #3067af);
-        color: #fff;
+        color: #faf9fb;
         text-align: center;
         font-weight: bold;
       }

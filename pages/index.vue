@@ -28,6 +28,7 @@
                     :created-at="content.publishedAt || content.createdAt"
                     :author="content.writer !== null ? content.writer.name : ''"
                     :category="content.category"
+                    :tag="content.tag"
                   />
                 </dd>
               </dl>

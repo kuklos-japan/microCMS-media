@@ -28,6 +28,7 @@
               :created-at="data.publishedAt || data.createdAt"
               :author="data.writer.name"
               :category="data.category"
+              :tag="content.tag[0]"
             />
             <Toc :id="data.id" :toc="toc" :visible="data.toc_visible" />
             <Post :body="data.body" />

@@ -28,7 +28,7 @@
     padding: 30px 40px 20px;
     z-index: 10;
     color: #2b2c30;
-    background-color: #fff;
+    background-color: #faf9fb;
     margin-top: 120px;
   }
 
@@ -72,7 +72,7 @@
     padding: 30px 20px;
     z-index: 10;
     color: #2b2c30;
-    background-color: #fff;
+    background-color: #faf9fb;
     margin-top: 20px;
   }
 

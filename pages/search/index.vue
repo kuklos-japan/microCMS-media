@@ -45,6 +45,7 @@
                       :created-at="content.publishedAt || content.createdAt"
                       :author="content.writer.name"
                       :category="content.category"
+                      :tag="content.tag[0]"
                     />
                   </dd>
                 </dl>
