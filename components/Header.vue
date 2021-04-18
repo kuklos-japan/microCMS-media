@@ -3,7 +3,7 @@
     <header class="header">
       <h1 class="logo">
         <a href="https://blog.enteri-o.com">
-          <img class="logoImg" src="/images/logo.png" alt="CryptoMoney" />
+          <img class="logoImg" src="/images/logo.svg" alt="CryptoMoney" />
         </a>
       </h1>
       <button class="menuBtn" @click="toggleOpen()">
@@ -81,7 +81,9 @@ export default {
   }
 
   .logoImg {
-    height: 28px;
+    height: 96px;
+    margin-top: -32px;
+    margin-left: -16px;
   }
 
   .menuBtn {
