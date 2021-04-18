@@ -37,7 +37,7 @@ export default {
       default: undefined,
     },
     tag: {
-      type: String,
+      type: Array,
       required: false,
       default: undefined,
     },
