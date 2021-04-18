@@ -92,7 +92,7 @@ export default {
     const headings = $('h1, h2, h3').toArray();
     const toc = headings.map((d) => {
       return {
-        text: d,
+        text: d.children[0].children[0].data,
         id: d.attribs.id,
         name: d.name,
       };
