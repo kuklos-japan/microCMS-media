@@ -33,7 +33,7 @@
             <Post :body="data.body" />
             <Writer v-if="data.writer" :writer="data.writer" />
             <Partner v-if="data.partner" :partner="data.partner" />
-            <Conversion :id="data.id" />
+            <!-- <Conversion :id="data.id" /> -->
             <RelatedBlogs
               v-if="data.related_blogs.length > 0"
               :blogs="data.related_blogs"
@@ -166,7 +166,7 @@ export default {
         {
           hid: 'og:url',
           property: 'og:url',
-          content: `https://blog.microcms.io/${this.data && this.data.id}`,
+          content: `https://blog.enteri-o.com/${this.data && this.data.id}`,
         },
         {
           hid: 'og:image',

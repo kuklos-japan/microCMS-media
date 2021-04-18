@@ -11,14 +11,14 @@
           <img src="/images/icon_facebook.svg" alt="Facebook" />
         </a>
       </li>
-      <li class="shareList">
+      <!-- <li class="shareList">
         <a :href="getHatenaLink()" target="_blank" rel="noopener noreferrer">
           <img src="/images/icon_hatena.svg" alt="はてなブックマーク" />
         </a>
-      </li>
+      </li> -->
       <li class="shareList">
         <a
-          href="https://blog.microcms.io/feed.xml"
+          href="https://blog.enteri-o.com/feed.xml"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -43,13 +43,13 @@ export default {
   },
   methods: {
     getTwitterLink() {
-      return `https://twitter.com/intent/tweet?text=${this.title}&url=https://blog.microcms.io/${this.id}/&hashtags=microcms`;
+      return `https://twitter.com/intent/tweet?text=${this.title}&url=https://blog.enteri-o.com/${this.id}/&hashtags=cryptomoney`;
     },
     getFacebookLink() {
-      return `https://www.facebook.com/sharer.php?u=https://blog.microcms.io/${this.id}/`;
+      return `https://www.facebook.com/sharer.php?u=https://blog.enteri-o.com/${this.id}/`;
     },
     getHatenaLink() {
-      return `https://b.hatena.ne.jp/entry/https://blog.microcms.io/${this.id}/`;
+      return `https://b.hatena.ne.jp/entry/https://blog.enteri-o.com/${this.id}/`;
     },
   },
 };

@@ -1,5 +1,6 @@
-# microcms-blog
-サイト: https://blog.microcms.io
+# Crypto Money blog
+以下のOSSを利用しています
+[microcms-blog|https://github.com/wantainc/microcms-blog]
 
 ## 機能
 - 記事一覧

@@ -136,12 +136,12 @@ export default {
         '/images/icon_link.svg',
         '/images/logo.svg',
       ],
-      runtimeCaching: [
-        {
-          urlPattern: 'https://images.microcms-assets.io/.*',
-          handler: 'staleWhileRevalidate',
-        },
-      ],
+      // runtimeCaching: [
+      //   {
+      //     urlPattern: 'https://images.microcms-assets.io/.*',
+      //     handler: 'staleWhileRevalidate',
+      //   },
+      // ],
     },
   },
   /*
