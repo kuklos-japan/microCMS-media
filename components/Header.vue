@@ -2,8 +2,8 @@
   <div>
     <header class="header">
       <h1 class="logo">
-        <a href="https://microcms.io">
-          <img class="logoImg" src="/images/logo.svg" alt="microCMS" />
+        <a href="https://blog.enteri-o.com">
+          <img class="logoImg" src="/images/logo.png" alt="CryptoMoney" />
         </a>
       </h1>
       <button class="menuBtn" @click="toggleOpen()">
@@ -14,26 +14,10 @@
       <div class="menu" :class="{ isOpen: open }">
         <ul class="lists">
           <li class="list">
-            <a href="https://microcms.io/pricing">料金</a>
+            <a href="https://blog.enteri-o.com">ブログ</a>
           </li>
           <li class="list">
-            <a href="https://document.microcms.io">ドキュメント</a>
-          </li>
-          <li class="list">
-            <a href="https://blog.microcms.io">ブログ</a>
-          </li>
-          <li class="list">
-            <a href="https://microcms.io/contact">お問い合わせ</a>
-          </li>
-        </ul>
-        <ul class="lists">
-          <li class="list">
-            <a class="signin" href="https://app.microcms.io/signin">ログイン</a>
-          </li>
-          <li class="list">
-            <a class="signup" :href="`https://app.microcms.io${params}`"
-              >新規登録</a
-            >
+            <a href="https://enteri-o.com/contact">お問い合わせ</a>
           </li>
         </ul>
       </div>

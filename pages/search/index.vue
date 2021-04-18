@@ -145,7 +145,7 @@ export default {
   head() {
     return {
       titleTemplete: null,
-      title: 'microCMSブログ',
+      title: 'CryptoMoneyブログ',
     };
   },
 };

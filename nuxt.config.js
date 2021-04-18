@@ -21,7 +21,7 @@ export default {
       prefix: 'og: http://ogp.me/ns#',
       lang: 'ja',
     },
-    titleTemplete: '%s | microCMSブログ',
+    titleTemplete: '%s | Crypto Money',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -29,45 +29,45 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'microCMSはAPIベースの日本製ヘッドレスCMSです。本ブログはmicroCMSの開発メンバーがmicroCMSの使い方や技術的な内容を発信するブログです。',
+          'Crypto Money blog [1]',
       },
       {
         hid: 'og:site_name',
         property: 'og:site_name',
-        content: 'microCMSブログ',
+        content: 'CryptoMoneyブログ',
       },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://blog.microcms.io',
+        content: 'https://blog.enteri-o.com',
       },
-      { hid: 'og:title', property: 'og:title', content: 'microCMSブログ' },
+      { hid: 'og:title', property: 'og:title', content: 'CryptoMoneyブログ' },
       {
         hid: 'og:description',
         property: 'og:description',
         content:
-          'microCMSはAPIベースの日本製ヘッドレスCMSです。本ブログはmicroCMSの開発メンバーがmicroCMSの使い方や技術的な内容を発信するブログです。',
+          'Crypto Money blog [2]',
       },
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://blog.microcms.io/images/ogp.png',
+        content: 'https://blog.enteri-o.com/images/ogp.png',
       },
 
       { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:site', content: '@micro_cms' },
+      { name: 'twitter:site', content: '@CryptoM41344897' },
     ],
     link: [
       {
         rel: 'icon',
         type: 'image/x-icon',
-        href: 'https://blog.microcms.io/favicon.png',
+        href: 'https://blog.enteri-o.com/favicon.png',
       },
       {
         rel: 'alternate',
         type: 'application/atom+xml',
-        href: 'https://blog.microcms.io/feed.xml',
+        href: 'https://blog.enteri-o.com/feed.xml',
         title: 'Atom',
       },
     ],
@@ -269,7 +269,7 @@ export default {
   },
   sitemap: {
     path: '/sitemap.xml',
-    hostname: 'https://blog.microcms.io',
+    hostname: 'https://blog.enteri-o.com',
     exclude: ['/draft', '/404'],
     gzip: true,
     trailingSlash: true,
@@ -279,10 +279,10 @@ export default {
       path: '/feed.xml',
       async create(feed) {
         feed.options = {
-          title: 'microCMSブログ',
-          link: 'https://blog.microcms.io/feed.xml',
+          title: 'Crypto Money ブログ',
+          link: 'https://blog.enteri-o.com/feed.xml',
           description:
-            'microCMSはAPIベースの日本製ヘッドレスCMSです。本ブログはmicroCMSの開発メンバーがmicroCMSの使い方や技術的な内容を発信するブログです。',
+            'Crypto Money blog [3]',
         };
 
         const posts = await api.get(`blog`).then((res) => res.data.contents);
@@ -291,7 +291,7 @@ export default {
           feed.addItem({
             title: post.title,
             id: post.id,
-            link: `https://blog.microcms.io/${post.id}/`,
+            link: `https://blog.enteri-o.com/${post.id}/`,
             description: post.description,
             content: post.description,
             date: new Date(post.publishedAt || post.createdAt),
@@ -306,10 +306,10 @@ export default {
       path: '/feed_update.xml',
       async create(feed) {
         feed.options = {
-          title: '更新情報｜microCMSブログ',
-          link: 'https://blog.microcms.io/feed.xml',
+          title: '更新情報｜CryptoMoneyブログ',
+          link: 'https://blog.enteri-o.com/feed.xml',
           description:
-            'microCMSはAPIベースの日本製ヘッドレスCMSです。本ブログはmicroCMSの開発メンバーがmicroCMSの使い方や技術的な内容を発信するブログです。',
+            'Crypto Money blog [4]',
         };
 
         const posts = await api
@@ -320,7 +320,7 @@ export default {
           feed.addItem({
             title: post.title,
             id: post.id,
-            link: `https://blog.microcms.io/${post.id}/`,
+            link: `https://blog.enteri-o.com/${post.id}/`,
             description: post.description,
             content: post.description,
             date: new Date(post.publishedAt || post.createdAt),
@@ -335,10 +335,10 @@ export default {
       path: '/feed_usecase.xml',
       async create(feed) {
         feed.options = {
-          title: '導入事例｜microCMSブログ',
-          link: 'https://blog.microcms.io/feed.xml',
+          title: '導入事例｜CryptoMoneyブログ',
+          link: 'https://blog.enteri-o.com/feed.xml',
           description:
-            'microCMSはAPIベースの日本製ヘッドレスCMSです。本ブログはmicroCMSの開発メンバーがmicroCMSの使い方や技術的な内容を発信するブログです。',
+            'Crypto Money blog [5]',
         };
 
         const posts = await api
@@ -349,7 +349,7 @@ export default {
           feed.addItem({
             title: post.title,
             id: post.id,
-            link: `https://blog.microcms.io/${post.id}/`,
+            link: `https://blog.enteri-o.com/${post.id}/`,
             description: post.description,
             content: post.description,
             date: new Date(post.publishedAt || post.createdAt),
