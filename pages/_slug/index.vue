@@ -91,7 +91,7 @@ export default {
     const $ = cheerio.load(data.body);
     const headings = $('h1, h2, h3').toArray();
     const toc = headings.map((d) => {
-      console.log(d)
+      console.log(d);
       return {
         text: d.children[0].data,
         id: d.attribs.id,
