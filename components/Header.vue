@@ -2,7 +2,7 @@
   <div>
     <header class="header">
       <h1 class="logo">
-        <a href="https://blog.enteri-o.com">
+        <a href="https://cryptomoney.enteri-o.com">
           <img class="logoImg" src="/images/logo.svg" alt="CryptoMoney" />
         </a>
       </h1>
@@ -14,7 +14,7 @@
       <div class="menu" :class="{ isOpen: open }">
         <ul class="lists">
           <li class="list">
-            <a href="https://blog.enteri-o.com">ブログ</a>
+            <a href="https://cryptomoney.enteri-o.com">ブログ</a>
           </li>
           <li class="list">
             <a href="https://enteri-o.com/contact">お問い合わせ</a>

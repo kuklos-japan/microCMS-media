@@ -167,7 +167,7 @@ export default {
         {
           hid: 'og:url',
           property: 'og:url',
-          content: `https://blog.enteri-o.com/${this.data && this.data.id}`,
+          content: `https://cryptomoney.enteri-o.com/${this.data && this.data.id}`,
         },
         {
           hid: 'og:image',

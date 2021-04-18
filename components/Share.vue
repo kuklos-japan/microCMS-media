@@ -18,7 +18,7 @@
       </li> -->
       <li class="shareList">
         <a
-          href="https://blog.enteri-o.com/feed.xml"
+          href="https://cryptomoney.enteri-o.com/feed.xml"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -43,13 +43,13 @@ export default {
   },
   methods: {
     getTwitterLink() {
-      return `https://twitter.com/intent/tweet?text=${this.title}&url=https://blog.enteri-o.com/${this.id}/&hashtags=cryptomoney`;
+      return `https://twitter.com/intent/tweet?text=${this.title}&url=https://cryptomoney.enteri-o.com/${this.id}/&hashtags=cryptomoney`;
     },
     getFacebookLink() {
-      return `https://www.facebook.com/sharer.php?u=https://blog.enteri-o.com/${this.id}/`;
+      return `https://www.facebook.com/sharer.php?u=https://cryptomoney.enteri-o.com/${this.id}/`;
     },
     getHatenaLink() {
-      return `https://b.hatena.ne.jp/entry/https://blog.enteri-o.com/${this.id}/`;
+      return `https://b.hatena.ne.jp/entry/https://cryptomoney.enteri-o.com/${this.id}/`;
     },
   },
 };

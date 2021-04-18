@@ -40,7 +40,7 @@ export default {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://blog.enteri-o.com',
+        content: 'https://cryptomoney.enteri-o.com',
       },
       { hid: 'og:title', property: 'og:title', content: 'CryptoMoneyブログ' },
       {
@@ -52,7 +52,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://blog.enteri-o.com/images/ogp.png',
+        content: 'https://cryptomoney.enteri-o.com/images/ogp.png',
       },
 
       { name: 'twitter:card', content: 'summary_large_image' },
@@ -62,12 +62,12 @@ export default {
       {
         rel: 'icon',
         type: 'image/x-icon',
-        href: 'https://blog.enteri-o.com/favicon.png',
+        href: 'https://cryptomoney.enteri-o.com/favicon.png',
       },
       {
         rel: 'alternate',
         type: 'application/atom+xml',
-        href: 'https://blog.enteri-o.com/feed.xml',
+        href: 'https://cryptomoney.enteri-o.com/feed.xml',
         title: 'Atom',
       },
     ],
@@ -269,7 +269,7 @@ export default {
   },
   sitemap: {
     path: '/sitemap.xml',
-    hostname: 'https://blog.enteri-o.com',
+    hostname: 'https://cryptomoney.enteri-o.com',
     exclude: ['/draft', '/404'],
     gzip: true,
     trailingSlash: true,
@@ -280,7 +280,7 @@ export default {
       async create(feed) {
         feed.options = {
           title: 'Crypto Money ブログ',
-          link: 'https://blog.enteri-o.com/feed.xml',
+          link: 'https://cryptomoney.enteri-o.com/feed.xml',
           description:
             'Crypto Money blog [3]',
         };
@@ -291,7 +291,7 @@ export default {
           feed.addItem({
             title: post.title,
             id: post.id,
-            link: `https://blog.enteri-o.com/${post.id}/`,
+            link: `https://cryptomoney.enteri-o.com/${post.id}/`,
             description: post.description,
             content: post.description,
             date: new Date(post.publishedAt || post.createdAt),
@@ -307,7 +307,7 @@ export default {
       async create(feed) {
         feed.options = {
           title: '更新情報｜CryptoMoneyブログ',
-          link: 'https://blog.enteri-o.com/feed.xml',
+          link: 'https://cryptomoney.enteri-o.com/feed.xml',
           description:
             'Crypto Money blog [4]',
         };
@@ -320,7 +320,7 @@ export default {
           feed.addItem({
             title: post.title,
             id: post.id,
-            link: `https://blog.enteri-o.com/${post.id}/`,
+            link: `https://cryptomoney.enteri-o.com/${post.id}/`,
             description: post.description,
             content: post.description,
             date: new Date(post.publishedAt || post.createdAt),
@@ -336,7 +336,7 @@ export default {
       async create(feed) {
         feed.options = {
           title: '導入事例｜CryptoMoneyブログ',
-          link: 'https://blog.enteri-o.com/feed.xml',
+          link: 'https://cryptomoney.enteri-o.com/feed.xml',
           description:
             'Crypto Money blog [5]',
         };
@@ -349,7 +349,7 @@ export default {
           feed.addItem({
             title: post.title,
             id: post.id,
-            link: `https://blog.enteri-o.com/${post.id}/`,
+            link: `https://cryptomoney.enteri-o.com/${post.id}/`,
             description: post.description,
             content: post.description,
             date: new Date(post.publishedAt || post.createdAt),
